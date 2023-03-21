@@ -1,0 +1,31 @@
+$primary: #5266DD;
+$danger: #FA5859;
+$info: #242946;
+
+// import bootstrap
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+
+// Features section buttons borders
+@media screen and (min-width: 768px){
+    #features .second-button-container, .third-button-container{
+        border-bottom: 0.5px solid gray;
+    }
+    .first-button-container{
+        border-bottom: 4px solid red;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .first-button-container, .second-button-container, .third-button-container{
+        border-bottom: 0.5px solid gray;
+    }
+    .first-button-container{
+        border-bottom: 4px solid red;
+    }
+}
+
+#download .card img{
+    width: 80px;
+    margin: auto;
+}
